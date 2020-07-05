@@ -1,0 +1,64 @@
+.main-about {
+  display: flex;
+  justify-content: center;
+}
+
+.box-text {
+  position: relative;
+  display: inline-block;
+}
+.box-text .text-about {
+  position: absolute;
+  top: 65px;
+  color: #fff;
+  width: 300px;
+  margin-left: 40px;
+  font-size: 18px;
+}
+.rodape-text {
+  max-width: 975px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header-rodape {
+  text-align: center;
+}
+
+.box-rodape {
+  display: flex;
+  justify-content: space-between;
+  width: 890px;
+  margin-top: 230px;
+}
+.content {
+  width: 330px;
+  height: 220px;
+  border-radius: 50%;
+  background: #f0f0f5;
+}
+.content-text {
+  width: 230px;
+  font-size: 14px;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+@media only screen and (max-width: 930px) {
+  .box-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: center;
+    margin: 0;
+  }
+  .content {
+    height: 150px;
+    margin: 4px 0;
+  }
+  .text {
+    margin-left: 280px;
+    width: 400px;
+  }
+}

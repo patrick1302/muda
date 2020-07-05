@@ -1,0 +1,68 @@
+.box {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-book {
+  width: 975px;
+  height: 499px;
+  position: relative;
+  display: inline-block;
+}
+.box-book .box-form {
+  position: absolute;
+  top: 10px;
+}
+.box-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+}
+.header-text {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.label-book {
+  color: #008000;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.input-book {
+  border-radius: 10px;
+  line-height: 35px;
+  width: 280px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+.button-book {
+  border-radius: 10px;
+  background: #008000;
+  color: #fff;
+  line-height: 35px;
+  margin-top: 8px;
+}
+.link-book {
+  color: #fff;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 16px;
+}
+select {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+options {
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 880px) {
+  .box-book .box-form {
+    margin-left: 348px;
+  }
+}
